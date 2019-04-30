@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyToDoList.Api", "MyToDoList.Api\MyToDoList.Api.csproj", "{9B97A936-4B82-46FE-B43D-BED35ED6AA2F}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MyToDoListWeb", "MyToDoListWeb\", "{EFF527F8-C299-4C4A-9E92-7000490F4DCB}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52711"
+		Debug.AspNetCompiler.PhysicalPath = "MyToDoListWeb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52711\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52711"
+		Release.AspNetCompiler.PhysicalPath = "MyToDoListWeb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52711\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52711"
+		SlnRelativePath = "MyToDoListWeb\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B97A936-4B82-46FE-B43D-BED35ED6AA2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B97A936-4B82-46FE-B43D-BED35ED6AA2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B97A936-4B82-46FE-B43D-BED35ED6AA2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B97A936-4B82-46FE-B43D-BED35ED6AA2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFF527F8-C299-4C4A-9E92-7000490F4DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFF527F8-C299-4C4A-9E92-7000490F4DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFF527F8-C299-4C4A-9E92-7000490F4DCB}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFF527F8-C299-4C4A-9E92-7000490F4DCB}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B360BAE-DAAA-4FF9-A533-C4B98F4E8475}
+	EndGlobalSection
+EndGlobal
